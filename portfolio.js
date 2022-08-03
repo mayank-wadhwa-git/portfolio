@@ -34,7 +34,7 @@ export const skillsSection = {
           "⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
         ),
         emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Node & Django REST Framework"),
+        emoji("⚡ Building RESTful APIs in Node & Node REST Framework"),
       ],
       softwareSkills: [
         {
@@ -61,11 +61,6 @@ export const skillsSection = {
           skillName: "Python",
           fontAwesomeClassname: "logos:python",
         },
-        {
-          skillName: "Django",
-          fontAwesomeClassname: "vscode-icons:file-type-django",
-        },
-
         {
           skillName: "Redux",
           fontAwesomeClassname: "logos:redux",

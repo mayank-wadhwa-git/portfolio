@@ -21,7 +21,7 @@ export default function Home({ githubProfileData }) {
         data={{
           title: "Mayank Wadhwa",
           description: "A passionate Full Stack Web Developer.",
-          image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
+          //   image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
           url: "https://developer-portfolio-1hanzla100.vercel.app",
           keywords: [
             "Hanzla",
