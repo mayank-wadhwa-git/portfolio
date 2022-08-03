@@ -195,12 +195,12 @@ export const educationInfo = [
     schoolName:
       "University Institute of Engineering and Technology, Panjab University, Chandigarh",
     subHeader: "Bachelor of Engineering in Computer Science",
-    duration: "August 2023 - Present",
-    desc: "Participated in the research of XXX and published 3 papers.",
-    descBullets: [
-      "Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    ],
+    duration: "August 2019 - Present",
+    // desc: "Participated in the research of XXX and published 3 papers.",
+    // descBullets: [
+    //   "Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
+    //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    // ],
   },
 ];
 
@@ -219,7 +219,7 @@ export const experience = [
   {
     role: "Front-end Web Development Intern",
     company: "Codbrix",
-    companylogo: "/img/icons/common/bleedAI.jpg",
+    companylogo: "/img/icons/common/codbrix.jpeg",
     date: "Aug 2021 - Oct 2021",
     descBullets: [
       "Updated NGO website by adding gallery element, education and health pages, added google sheets API to contact and Join-Us pages for better user experience and wider reach",

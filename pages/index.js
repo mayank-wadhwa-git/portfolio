@@ -20,7 +20,6 @@ export default function Home({ githubProfileData }) {
       <SEO
         data={{
           title: "Mayank Wadhwa",
-          description: "A passionate Full Stack Web Developer.",
         }}
       />
       <Navigation />
