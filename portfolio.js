@@ -18,7 +18,6 @@ export const contact = {};
 export const socialLinks = {
   facebook: "https://www.facebook.com/profile.php?id=100009372307526",
   instagram: "https://www.instagram.com/wadhwa1701/",
-  twitter: "https://twitter.com/1hanzla100",
   github: "https://github.com/mayank-wadhwa-git",
   linkedin: "https://www.linkedin.com/in/mayank-wadhwa-1968791a1/",
 };
@@ -35,7 +34,7 @@ export const skillsSection = {
           "⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
         ),
         emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji("⚡ Building RESTful APIs in Node & Django REST Framework"),
       ],
       softwareSkills: [
         {
@@ -81,110 +80,110 @@ export const skillsSection = {
         },
       ],
     },
-    {
-      title: "Cloud Infra-Architecture",
-      lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
-      skills: [
-        emoji("⚡ Experience of working on multiple cloud platforms"),
-        emoji(
-          "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
-        ),
-        emoji(
-          "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
-        ),
-      ],
-      softwareSkills: [
-        // ? Check README To get icon details
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "logos:aws",
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "logos:microsoft-azure",
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "logos:heroku-icon",
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "logos:postgresql",
-        },
-        {
-          skillName: "Github",
-          fontAwesomeClassname: "akar-icons:github-fill",
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "logos:docker-icon",
-        },
-        {
-          skillName: "Github Actions",
-          fontAwesomeClassname: "logos:github-actions",
-        },
-        {
-          skillName: "Cloudinary",
-          fontAwesomeClassname: "logos:cloudinary",
-        },
-        {
-          skillName: "Nginx",
-          fontAwesomeClassname: "logos:nginx",
-        },
-        {
-          skillName: "Sentry",
-          fontAwesomeClassname: "logos:sentry-icon",
-        },
-      ],
-    },
-    {
-      title: "Blockchain",
-      lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
-      skills: [
-        emoji(
-          "⚡ Experience in developing Smart Contract using Solidity & Ethereum"
-        ),
-        emoji(
-          "⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
-        ),
-        emoji(
-          "⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
-        ),
-        emoji("⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"),
-        emoji(
-          "⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
-        ),
-      ],
-      softwareSkills: [
-        {
-          skillName: "Ethereum",
-          fontAwesomeClassname: "logos:ethereum",
-        },
-        {
-          skillName: "Solidity",
-          fontAwesomeClassname: "logos:solidity",
-        },
-        {
-          skillName: "Web3js",
-          fontAwesomeClassname: "logos:web3js",
-        },
-        {
-          skillName: "Metamask",
-          fontAwesomeClassname: "logos:metamask-icon",
-        },
-        {
-          skillName: "Ganache",
-          fontAwesomeClassname: "logos:ganache-icon",
-        },
-      ],
-    },
+    // {
+    //   title: "Cloud Infra-Architecture",
+    //   lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
+    //   skills: [
+    //     emoji("⚡ Experience of working on multiple cloud platforms"),
+    //     emoji(
+    //       "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
+    //     ),
+    //     emoji(
+    //       "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
+    //     ),
+    //   ],
+    //   softwareSkills: [
+    //     // ? Check README To get icon details
+    //     {
+    //       skillName: "AWS",
+    //       fontAwesomeClassname: "logos:aws",
+    //     },
+    //     {
+    //       skillName: "Azure",
+    //       fontAwesomeClassname: "logos:microsoft-azure",
+    //     },
+    //     {
+    //       skillName: "Heroku",
+    //       fontAwesomeClassname: "logos:heroku-icon",
+    //     },
+    //     {
+    //       skillName: "PostgreSQL",
+    //       fontAwesomeClassname: "logos:postgresql",
+    //     },
+    //     {
+    //       skillName: "Github",
+    //       fontAwesomeClassname: "akar-icons:github-fill",
+    //     },
+    //     {
+    //       skillName: "Docker",
+    //       fontAwesomeClassname: "logos:docker-icon",
+    //     },
+    //     {
+    //       skillName: "Github Actions",
+    //       fontAwesomeClassname: "logos:github-actions",
+    //     },
+    //     {
+    //       skillName: "Cloudinary",
+    //       fontAwesomeClassname: "logos:cloudinary",
+    //     },
+    //     {
+    //       skillName: "Nginx",
+    //       fontAwesomeClassname: "logos:nginx",
+    //     },
+    //     {
+    //       skillName: "Sentry",
+    //       fontAwesomeClassname: "logos:sentry-icon",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Blockchain",
+    //   lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
+    //   skills: [
+    //     emoji(
+    //       "⚡ Experience in developing Smart Contract using Solidity & Ethereum"
+    //     ),
+    //     emoji(
+    //       "⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
+    //     ),
+    //     emoji(
+    //       "⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
+    //     ),
+    //     emoji("⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"),
+    //     emoji(
+    //       "⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
+    //     ),
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Ethereum",
+    //       fontAwesomeClassname: "logos:ethereum",
+    //     },
+    //     {
+    //       skillName: "Solidity",
+    //       fontAwesomeClassname: "logos:solidity",
+    //     },
+    //     {
+    //       skillName: "Web3js",
+    //       fontAwesomeClassname: "logos:web3js",
+    //     },
+    //     {
+    //       skillName: "Metamask",
+    //       fontAwesomeClassname: "logos:metamask-icon",
+    //     },
+    //     {
+    //       skillName: "Ganache",
+    //       fontAwesomeClassname: "logos:ganache-icon",
+    //     },
+    //   ],
+    // },
   ],
 };
 
 export const SkillBars = [
   {
     Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "90", //Insert relative proficiency in percentage
+    progressPercentage: "85", //Insert relative proficiency in percentage
   },
   {
     Stack: "Backend",
@@ -192,15 +191,16 @@ export const SkillBars = [
   },
   {
     Stack: "Programming",
-    progressPercentage: "60",
+    progressPercentage: "70",
   },
 ];
 
 export const educationInfo = [
   {
-    schoolName: "Harvard University",
-    subHeader: "Master of Science in Computer Science",
-    duration: "September 2017 - April 2019",
+    schoolName:
+      "University Institute of Engineering and Technology, Panjab University, Chandigarh",
+    subHeader: "Bachelor of Engineering in Computer Science",
+    duration: "August 2023 - Present",
     desc: "Participated in the research of XXX and published 3 papers.",
     descBullets: [
       "Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
@@ -211,71 +211,85 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: "API Engineer",
-    company: "Duseca Software",
-    companylogo: "/img/icons/common/dusecaSoftware.jpg",
-    date: "Jan 2022 – Mar 2022",
-    desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    role: "Software Development Intern",
+    company: "Modgenics",
+    companylogo: "/img/icons/common/modgenics.jpeg",
+    date: "Feb 2022 – June 2022",
+    descBullets: [
+      "Created a complete website of a construction company using ReactJs and Tailwind Css. Integrated EmailJs which helps in sending form data to our mail.",
+      "Worked on platform named Investability. Created many UI components for the platform.",
+      "Also worked on the LMS system, another project of a client.",
+    ],
   },
   {
-    role: "Full Stack Developer",
-    company: "Bleed-AI",
+    role: "Front-end Web Development Intern",
+    company: "Codbrix",
     companylogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
+    date: "Aug 2021 - Oct 2021",
+    descBullets: [
+      "Updated NGO website by adding gallery element, education and health pages, added google sheets API to contact and Join-Us pages for better user experience and wider reach",
+      "Updated admin dashboard, added social links, updated article and blog pages through ejs",
+      "Created a simple Kanban Board",
+      "Completed 3 projects which included implementation of Admin Dashboard, Backend Integration, manual search bar",
+    ],
   },
   {
-    role: "Backend Developer",
-    company: "Wapidu",
-    companylogo: "/img/icons/common/wapidu.jpg",
-    date: "Sept 2021",
-    desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
+    role: "Web Development Intern",
+    company: "The Spark's Foundation",
+    companylogo: "/img/icons/common/sparks.png",
+    date: "July 2021",
+    descBullets: [
+      "A Dummy Donation Page created by HTML and CSS.Razorpay (payment gateway) is integrated inside the website. It generates an invoice of the donation amount and sends the invoice receipt and other details to the mail entered by the user.",
+    ],
   },
 ];
 
 export const projects = [
   {
-    name: "AtlasMart",
-    desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-    link: "https://atlasmart.netlify.app/",
+    name: "To-Do List",
+    desc: "List all the things you had like to do for the day!",
+    github: "https://github.com/mayank-wadhwa-git/ToDoList",
+    // link: "https://atlasmart.netlify.app/",
   },
   {
-    name: "Technota (Forum)",
-    desc: "Get hands-on experience in technical skills with Technota",
-    link: "https://technota.netlify.app/",
+    name: "Notes Keeping App Using React",
+    desc: "A platform which can be used to note the important things.",
+    // link: "https://technota.netlify.app/",
+    github:
+      "https://github.com/mayank-wadhwa-git/mayank-wadhwa-git.github.io/tree/main/projects/NotesAppUsingReact",
   },
   {
-    name: "Shopaza (Ecommerce)",
-    desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-    link: "https://shopaza.herokuapp.com/",
+    name: "Pattern Remembering Game-The Simon Game",
+    desc: "A Game which can be relaxing on some point of time. The pattern needs to be rememebered and is to be repeated.",
+    link: "https://mayank-wadhwa-git.github.io/projects/game/",
+    github:
+      "https://github.com/mayank-wadhwa-git/mayank-wadhwa-git.github.io/tree/main/projects/game",
   },
   {
-    name: "MMFmelody (Blog)",
-    desc: "Here you will find amazing tips about health, beauty, and modern-day life.",
-    // github: "https://github.com/1hanzla100",
-    link: "https://mmfmelody.herokuapp.com/",
+    name: "Weather App",
+    desc: "A website that lets you know the weather on entering the name of the city. ",
+    github:
+      "https://github.com/mayank-wadhwa-git/mayank-wadhwa-git.github.io/tree/main/projects/weather",
+    link: "https://mayank-wadhwa-git.github.io/projects/weather/",
   },
   {
-    name: "Developer-Portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    name: "Connecting People With Dogs Nearby – TinDog",
+    desc: "Platform to connect people who wish to adopt the dogs. This is a front-end website which also includes the plan to meet dogs in their locality",
+    github:
+      "https://github.com/mayank-wadhwa-git/mayank-wadhwa-git.github.io/tree/main/projects/website",
+    link: "https://mayank-wadhwa-git.github.io/projects/website/",
   },
 ];
 
-export const feedbacks = [
-  {
-    name: "John Smith",
-    feedback:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-  },
-  {
-    name: "John Smith",
-    feedback:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-  },
-];
+// export const feedbacks = [
+//   {
+//     name: "John Smith",
+//     feedback:
+//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+//   },
+//   {
+//     name: "John Smith",
+//     feedback:
+//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+//   },
+// ];
